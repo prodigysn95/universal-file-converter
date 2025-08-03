@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Converter</title>
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='item/converter.png') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <h1>Converter File</h1>
+  <form id="uploadForm">
+    <label for="files" class="file-label">Select files</label>
+    <input type="file" name="files" id="files" multiple required>
+    <span id="fileName" class="file-name">No files selected</span>
+
+    <label>Mode:</label>
+    <select name="mode" id="modeSelect" required>
+      <option value="image">Image</option>
+      <option value="video">Video</option>
+      <option value="audio">Audio</option>
+    </select>
+
+    <label>Format Output:</label>
+    <select name="format" id="formatSelect" required></select>
+
+    <button type="submit" id="convertBtn">Convert</button>
+
+    <div class="status-text" id="statusText"></div>
+    <div class="progress">
+      <div class="progress-bar" id="progressBar">0%</div>
+    </div>
+  </form>
+
+  <div id="results" class="output-container">
+  <h2>Output</h2>
+</div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

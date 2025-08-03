@@ -1,0 +1,5 @@
+Flask
+Pillow
+CairoSVG
+opencv-python
+ffmpeg-python
