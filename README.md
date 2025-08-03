@@ -29,7 +29,7 @@ It features a **modern dark neon interface**, progress bar, structured output, a
 
 ##  Installation (Quick)
 ```bash
-git clone https://github.com/username/converter-file.git
+git clone https://github.com/rillToMe/converter-file.git
 cd converter-file
 pip install -r requirements.txt
 python app.py
