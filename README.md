@@ -1,7 +1,7 @@
 #  Converter File
 
 **Converter File** is a web-based application built with **Python (Flask)** that can convert images, videos, and audio files into various formats.  
-It features a **modern dark neon interface**, progress bar, structured output, and multi-file support.
+It features a progress bar, structured output, and multi-file support.
 
 ---
 
