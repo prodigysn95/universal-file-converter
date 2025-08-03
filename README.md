@@ -12,7 +12,7 @@ It features a **modern dark neon interface**, progress bar, structured output, a
 - 🎵 **Audio Conversion** → MP3, WAV, FLAC, OGG, AAC, M4A
 - 📂 **Multi-File Support** (upload multiple files at once)
 - 📦 **Download All as ZIP**
-- 📊 **Real-Time Progress Bar** for upload & conversion
+- 📊 **Real-Time Progress** for upload & conversion
 - 🗂 **Organized Output Section** with "Output" title and download buttons
 - 📱 **Responsive Design** (works on & desktop)
 
